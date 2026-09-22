@@ -1,0 +1,54 @@
+# ==============================
+# Unreal Engine .gitignore
+# ==============================
+
+# Visual Studio / Rider / IDE files
+.vs/
+.vsconfig
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Engine generated folders (safe to delete/regenerate)
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Packaged / staged builds
+Saved/StagedBuilds/
+Saved/Cooked/
+Saved/Backup/
+Saved/Crashes/
+
+# Per-user editor config (machine-specific, not shared)
+Saved/Config/
+
+# Plugin generated folders
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Compiled object/debug files
+*.obj
+*.pdb
+*.idb
+*.pch
+*.gch
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Git LFS lock file cache (local only)
+.git-lfs-lock-cache
+doggame/
